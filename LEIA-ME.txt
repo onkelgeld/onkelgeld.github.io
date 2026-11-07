@@ -1,0 +1,33 @@
+SITE ONKEL GELD — ESTRUTURA E PUBLICACAO
+========================================
+
+Estrutura
+---------
+index.html            Pagina principal (logotipo, proposta, destaque OG_COL_001, como encontrar)
+indicadores.html      Catalogo de indicadores
+og-col-001.html       Pagina do produto OG_COL_001
+como-encontrar.html   Passo a passo na loja Nelogica + perguntas frequentes
+assets/css/style.css  Estilos (cores, tipografia, layout responsivo)
+assets/js/main.js     Menu em celulares e ano do rodape
+assets/fonts/         Fontes Bangers e Inter hospedadas localmente (sem dependencia do Google)
+assets/img/           Graficos, favicon e imagem de compartilhamento (og-onkel-geld.png)
+
+Publicacao
+----------
+Envie TODO o conteudo desta pasta (nao a pasta SITE em si) para a raiz publica
+da hospedagem (ex.: public_html/ ou www/), mantendo as subpastas.
+A pagina inicial e o index.html.
+
+Ajustes recomendados apos publicar
+----------------------------------
+1. Imagem de compartilhamento: em cada .html, troque
+   content="assets/img/og-onkel-geld.png" pelo endereco completo,
+   ex.: content="https://SEU-DOMINIO/assets/img/og-onkel-geld.png"
+   (WhatsApp, LinkedIn e Facebook exigem endereco absoluto).
+2. Para um novo indicador: duplique og-col-001.html, altere textos e imagens,
+   inclua um cartao em indicadores.html e o item no menu de todas as paginas.
+
+Links da loja usados
+--------------------
+Busca Onkel Geld: https://store.nelogica.com.br/search?q=onkel+geld
+OG_COL_001:       https://nelogica.com.br/mercado-de-estrategias?id=23473
